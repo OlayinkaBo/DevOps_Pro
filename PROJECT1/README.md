@@ -72,13 +72,14 @@ Here are some shortcuts to help navigate the cd command :
 
 ls is a Linux shell command that lists directory contents of files and directories. It provides valuable information about files, directories, and their attributes. Running it without a flag or parameter will show the current working directory's content.
 
-![Alt text](Images/ls.png)
+![Alt text](images/ls.png)
 
 To see other directories' content, type ls followed by the desired path. For example, to view files in the Document folder, enter :
 
 `ls Documents`
 
-![Alt text](<Images/ls Documents.png>)
+![Alt text](<images/ls Documents.png>)
+
 
 Here are some options you can use with the ls command
 
@@ -88,8 +89,8 @@ Here are some options you can use with the ls command
 
 `ls -lh` *shows the file sizes in easily readable format, such as MB, GB, and TB*
 
-![Alt text](<Images/ls with flags.png>)
 
+![Alt text](<images/ls with flags.png>)
 
 **5. cat command**
 
@@ -97,19 +98,20 @@ Cat(concatenate) command is very frequently used in Linux. It reads data from th
 
 `cat learning_linux.txt`
 
-![Alt text](Images/cat.png)
+![Alt text](images/cat.png)
 
 Here are other ways to use the cat command :
 
 `cat filename1.txt filename2.txt > filename3.txt` 
 
-![Alt text](<Images/cat merger.png>)
+![Alt text](<images/cat merger.png>)
+
 
 *Merges file1.txt and file2.txt and stores the output in file3.txt*
 
 `tac file1.txt `
 
-![Alt text](<Images/tac cat.png>)
+![Alt text](<images/tac cat.png>)
 
 *Dispalys content in reverse order*
 
@@ -119,19 +121,20 @@ cp stands for a copy. This command is used to copy files or groups of files or d
 
 `cp /home/vboxuser/file1.txt Desktop`
 
-![Alt text](Images/cp.png)
+![Alt text](images/cp.png)
 
 To copy the content of a file to a new file in the same directory, enter cp followed by the source and dsetination file as below :
 
 `cp file1.txt file2.txt`
 
-![Alt text](<Images/cp same directory.png>)
+![Alt text](<images/cp same directory.png>)
 
 To copy an entire directory, use the R flag as shown below
 
 `cp -R /home/vboxuser/Documents /home/vboxuser/Documents_backup`
 
-![Alt text](<Images/cp entire directory.png>)
+![Alt text](<images/cp entire directory.png>)
+
 
 
 **7. mv command**
