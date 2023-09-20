@@ -143,13 +143,14 @@ mv command is used to move and rename files and directories. To move a file, inc
 
 `mv /home/vboxuser/Documents_backup /home/vboxuser/Documents`
 
-![Alt text](<Images/mv command.png>)
+![Alt text](<images/mv command.png>)
 
 mv can also be used to rename a file or folder. For example,
 
 `mv johnbol new_folder`
 
-![Alt text](<Images/mv rename command.png>)
+![Alt text](<images/mv rename command.png>)
+
 
 **8. mkdir command**
 
@@ -163,13 +164,14 @@ For example, to create a directly called music
 
 `mkdir Music`
 
-![Alt text](Images/mkdir.png)
+![Alt text](images/mkdir.png)
 
 To make a new directory called song inside music, use the command :
 
 `mkdir music/Songs`
 
-![Alt text](<Images/mkdir 2.png>)
+![Alt text](<images/mkdir 2.png>)
+
 
 
 **9. rmdir command**
@@ -180,7 +182,8 @@ To remove and empty dirextory from its parent directory, use the below cammand :
 
 `rmdir /home/vboxuser/Documents/music/songs`
 
-![Alt text](Images/rmdir.png)
+![Alt text](images/rmdir.png)
+
 
 **10. rm command**
 
@@ -194,7 +197,8 @@ Multiple files can be removed by running the below command :
 
 `rm file1.txt file2.txt file3.txt`
 
-![Alt text](<Images/rm command.png>)
+![Alt text](<images/rm command.png>)
+
 
 **11. touch command**
 
@@ -204,7 +208,8 @@ For example, to create a new_file, run the command :
 
 `touch new_file`
 
-![Alt text](<Images/touch command.png>)
+![Alt text](<images/touch command.png>)
+
 
 **12. locate command**
 
@@ -214,7 +219,7 @@ For example,
 
 `locate -i lessons`
 
-![Alt text](Images/locate.png)
+![Alt text](images/locate.png)
 
 
 **13. find command**
@@ -229,7 +234,7 @@ For example,
 
 `find /videos`
 
-![Alt text](Images/find.png)
+![Alt text](images/find.png)
 
 
 **14. grep command**
@@ -240,7 +245,8 @@ For example,
 
 `grep white colours.txt`
 
-![Alt text](Images/grep.png)
+![Alt text](images/grep.png)
+
 
 **15. df command**
 
@@ -254,7 +260,8 @@ For example,
 
 `df -h`
 
-![Alt text](Images/df.png)
+![Alt text](images/diff.png)
+
 
 
 **16. du command**
@@ -265,7 +272,8 @@ For example,
 
 `du /home/vboxuser/Downloads`
 
-![Alt text](Images/du.png)
+![Alt text](images/du.png)
+
 
 **17. head command**
 
@@ -279,7 +287,8 @@ For example :
 
 `head curl_vars.yml`
 
-![Alt text](Images/head.png)
+![Alt text](images/head.png)
+
 
 **18. tail command**
 
@@ -293,7 +302,8 @@ For example :
 
 `tail curl_vars.yml`
 
-![Alt text](Images/tail.png)
+![Alt text](images/tail.png)
+
 
 **19. diff command**
 
@@ -307,7 +317,7 @@ Example :
 
 `diff curl_vars.yml wget_vars.yml`
 
-![Alt text](Images/diff.png)
+![Alt text](images/diff.png)
 
 **20. tar command**
 
@@ -319,7 +329,7 @@ General syntax :
 
 Example
 
-![Alt text](Images/tar.png)
+![Alt text](images/tar.png)
 
 
 
@@ -338,7 +348,7 @@ For example, the owner is currently the only one with permissionto change note.t
 
 `chmod 777 file1.txt file2.txt`
 
-![Alt text](Images/chmod.png)
+![Alt text](images/chmod.png)
 
 
 **22. chown command**
@@ -353,7 +363,7 @@ For example, to make peter the owner of file1.txt :
 
 `sudo chown fabian file1.txt`
 
-![Alt text](Images/chown.png)
+![Alt text](images/chown.png)
 
 **23. jobs command**
 
@@ -373,9 +383,9 @@ To kill a program you must know its process identification number (PID). If you 
 
 `ps ux`
 
-![Alt text](Images/kill.png)
+![Alt text](images/kill.png)
 
-![Alt text](Images/kill2.png)
+![Alt text](images/kill2.png)
 
 After knowing the PID and the signal to use, run the syntax below :
 
@@ -399,7 +409,8 @@ For example, you can try to connect to Google.com and measure it's response time
 
 ping google.com
 
-![Alt text](Images/ping.png)
+![Alt text](images/ping.png)
+
 
 **26. wget command**
 
@@ -413,7 +424,8 @@ For example, to download the latest copy of wordpress :
 
 `wget https://wordpress.org/latest.zip`
 
-![Alt text](Images/wget.png)
+![Alt text](images/wget.png)
+
 
 **27. uname command**
 
@@ -423,7 +435,7 @@ General syntax :
 
 `uname [option]`
 
-![Alt text](Images/uname.png)
+![Alt text](images/uname.png)
 
 There are acceptable options to use :
 
@@ -442,8 +454,7 @@ General syntax :
 
 `top`
 
-![Alt text](Images/top.png)
-
+![Alt text](images/top.png)
 
 
 **29. history command**
@@ -454,7 +465,8 @@ General syntax :
 
 `history [option]`
 
-![Alt text](Images/history.png)
+![Alt text](images/history.png)
+
 
 There are acceptable options to use :
 
@@ -473,7 +485,7 @@ To display the complete manual :
 
 `man [command_name]`
 
-![Alt text](Images/man.png)
+![Alt text](images/man.png)
 
 **31. echo command**
 
@@ -485,7 +497,7 @@ For example
 
 `echo john`
 
-![Alt text](Images/echo.png)
+![Alt text](images/echo.png)
 
 **32. zip, unzip commands**
 
@@ -499,7 +511,7 @@ For example, to zip a file named file1.txt
 
 `zip archive.zip file1.txt`
 
-![Alt text](Images/zip.png)
+![Alt text](images/zip.png)
 
 On the other hand, the unzip file extracts the zip from the archive. The general syntax is as below :
 
@@ -509,8 +521,7 @@ For example,
 
 `unzip archive.zip`
 
-![Alt text](Images/unzip.png)
-
+![Alt text](images/unzip.png)
 
 **33. hostname command**
 
@@ -523,7 +534,7 @@ General syntax :
 
 For example,
 
-![Alt text](Images/hostname.png)
+![Alt text](images/hostname.png)
 
 
 **34. useradd, userdel commands**
@@ -554,7 +565,7 @@ To delete a user account, use the userdel command :
 
 `userdel username`
 
-![Alt text](Images/useradd.png)
+![Alt text](images/useradd.png)
 
 
 **35. apt-get command**
@@ -569,9 +580,9 @@ For example, to update to update the package lists for available software packag
 
 `sudo apt-get update`
 
-![Alt text](Images/apt-get.png)
+![Alt text](images/apt-get.png)
 
-![Alt text](Images/apt-get2.png)
+![Alt text](images/apt-get2.png)
 
 
 **36. nano, vi, jed commands**
@@ -582,14 +593,13 @@ General syntax,
 
 `nano [filename]`
 
-![Alt text](Images/nano.png)
-![Alt text](Images/nano2.png)
-
+![Alt text](images/nano.png)
+![Alt text](images/nano2.png)
 
 `vi [filename]`
 
-![Alt text](Images/vi.png)
-![Alt text](Images/vi2.png)
+![Alt text](images/vi.png)
+![Alt text](images/vi2.png)
 
 jed has a drep=down menu interface that allows users to perform actions without entering keyboard combinations or commands. Like vi, it has modes to load modules or plugins to write specific texts. 
 
@@ -597,7 +607,7 @@ General syntax,
 
 `jed [filename]`
 
-![Alt text](Images/jed.png)
+![Alt text](images/jed.png)
 
 
 **37. alias, unalias commands**
@@ -613,7 +623,7 @@ Use the alias command to create a temporary alias that lasts until the end of th
 
 `alias m=mkdir`
 
-![Alt text](Images/alias.png)
+![Alt text](images/alias.png)
 
 Another use for aliases is to create a shortcut for running scripts. To do this, provide the absolute path to the script as the value. For example, 
 
@@ -624,7 +634,7 @@ To remove an alias, use the unalias command with the following syntax:
 
 `unalias [name]`
 
-![Alt text](Images/unalias.png)
+![Alt text](images/unalias.png)
 
 
 **38. su command**
@@ -635,8 +645,7 @@ General syntax
 
 `su [options] [username [argument]]`
 
-![Alt text](Images/su.png)
-
+![Alt text](images/su.png)
 
 **39. htop command**
 
@@ -646,7 +655,7 @@ General syntax :
 
 `htop [options]`
 
-![Alt text](Images/htop.png)
+![Alt text](images/htop.png)
 
 
 **40. ps command**
@@ -657,5 +666,5 @@ General syntax :
 
 `ps [options]`
 
-![Alt text](Images/ps.png)
+![Alt text](images/ps.png)
 
