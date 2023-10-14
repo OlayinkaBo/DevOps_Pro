@@ -1,4 +1,4 @@
-# Intoduction to Shell Scripting and User Input
+# Introduction to Shell Scripting and User Input
 
 The shell is a program that provides the user with an interface to use the operating system’s functions through some commands. 
 
