@@ -6,7 +6,7 @@ Technology stack determines the type of applications you can build, the level of
 Some popular examples of tech stack include:
 
 - The LAMP stack : Linux, Apache, MySQL, and PHP.
-- LRMP stack : Linux, Nginx, MySQL, and PHP.
+- LEMP stack : Linux, Nginx, MySQL, and PHP.
 - MEAN stack : MongoDB, Express.js, AngularJS, and Node.js. 
 - MERN stack : MongoDB, Express.js, React, and Node.js.
 
